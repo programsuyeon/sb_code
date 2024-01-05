@@ -10,11 +10,10 @@ phases:
   build:
     commands:
       - echo Build started
-      - mvn test
+      - mvn clean package
   post_build:
     commands:
       - echo Build completed
-      - mvn clean package
 
 artifacts:
   files: #빌드후에 배포단계로 옮길 파일들
