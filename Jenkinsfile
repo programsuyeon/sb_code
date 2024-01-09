@@ -12,7 +12,7 @@ pipeline {
         GITSSHADD = 'git@github.com:programsuyeon/sb_code.git'
         GITCREDENTIAL = 'git_cre'
         
-        DOCKERHUB = 'programusyeon'
+        DOCKERHUB = 'programusyeon/eks_spring'
         DOCKERHUBCREDENTIAL = 'docker_cre'
     }
     
@@ -47,7 +47,7 @@ pipeline {
         }
         stage('image push') {
             steps {
-                withDockerRegistry(credentialsld:DOCKERHUBCREDENTIAL, url: ") {
+                withDockerRegistry(credentialsld:DOCKERHUBCREDENTIAL, url: "){
                     sh "docker push ${DOCKERHUB}:${currentBuild.number} ."
                     sh "docker push ${DOCKERHUB}:latest"
                 }
