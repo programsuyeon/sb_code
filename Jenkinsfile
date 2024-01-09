@@ -10,7 +10,7 @@ pipeline {
         GITEMAIL = 'programusyeon@gmail.com'
         GITWEBADD = 'https://github.com/programsuyeon/sb_code.git'
         GITSSHADD = 'git@github.com:programsuyeon/sb_code.git'
-        GITCREDENTIAL = 'git_cre"
+        GITCREDENTIAL = 'git_cre'
         
         DOCKERHUB = 'programusyeon'
         DOCKERHUBCREDENTIAL = 'docker_cre'
