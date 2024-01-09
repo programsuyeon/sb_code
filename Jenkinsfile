@@ -7,13 +7,13 @@ pipeline {
     
     environment {
         GITNAME = 'programusyeon'
-        GITEMAIL =
-        GITWEBADD =
-        GITSSHADD =
-        GITCREDENTIAL =
+        GITEMAIL = 'programusyeon@gmail.com'
+        GITWEBADD = 'https://github.com/programsuyeon/sb_code.git'
+        GITSSHADD = 'git@github.com:programsuyeon/sb_code.git'
+        GITCREDENTIAL = 'git_cre"
         
-        DOCKERHUB =
-        DOCKERHUBCREDENTIAL =
+        DOCKERHUB = 'programusyeon'
+        DOCKERHUBCREDENTIAL = 'docker_cre'
     }
     
     stages {
