@@ -11,7 +11,7 @@ pipeline {
         GITSSHADD = 'git@github.com:programsuyeon/sb_code.git'
         GITCREDENTIAL = 'git_cre'
         
-        DOCKERHUB = 'programsuyeon/eks_spring'
+        DOCKERHUB = 'programusyeon/eks_spring'
         DOCKERHUBCREDENTIAL = 'docker_cre'
     }
         
